@@ -9,7 +9,8 @@
 
 transitions = { 's0': { 'DIGIT':'s1', 'DOT':'s2' },
 	       	's1': { 'DIGIT':'s1','DOT':'s2' },
-     	      	's2': { 'DIGIT':'s2' }
+     	      	's2': { 'DIGIT':'s3'},
+	        's3': { 'DIGIT':'s3'}
 	    	} 
 
 
