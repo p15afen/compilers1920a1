@@ -14,7 +14,7 @@ transitions = { 's0': { 'DIGIT':'s1', 'DOT':'s2' },
 	    	} 
 
 
-accepts = { 's2':'FLOAT_TOKEN'	
+accepts = { 's3':'FLOAT_TOKEN'	
      	  }
 
 
